@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #DBDBDB;
+}
+
+/* Header CSS */
+header {
+    background-color: #4C4C4C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0.4rem;
+}
+
+.logo {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2.3rem;
+    color: #DBDBDB;
+    font-weight: 700;
+}
+
+
+li {
+    display: inline-flex;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    color: #DBDBDB;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #85C7F2;
+}
+
+
+/* About Me CSS */
+.about-me {
+    background-color: #D1D1D1;
+    padding: 3rem 2rem;
+    display: flex;
+}
+
+.about-me-text {
+    background-color: #DBDBDB;
+    font-size: 1.3rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+/* Projects CSS */
+.about-me-image {
+    width: 35rem;
+    height: 25rem;
+}
+
+.projects {
+    background-color: #D1D1D1;
+    padding: 1rem 2rem;
+}
+
+.projects-text {
+    background-color: #DBDBDB;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1.4rem;
+    font-size: 1.4rem;
+}
+
+
+/* Skills CSS */
+.skills {
+    background-color: #D1D1D1;
+    padding: 2rem 2rem;
+}
+
+.skills-text {
+    background-color: #DBDBDB;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+
+#icon {
+    padding-right: 1rem;
+    padding-bottom: 1.6rem;
+}
