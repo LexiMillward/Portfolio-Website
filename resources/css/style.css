@@ -106,3 +106,32 @@ h2 {
     padding-right: 1rem;
     padding-bottom: 1.6rem;
 }
+
+/* Contact CSS */
+.contact {
+    background-color: #1D7874;
+    padding: 1rem 2rem;
+}
+
+.contact-text {
+    background-color: #679289;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 0.2rem;
+    font-size: 1.3rem;
+}
+
+.contact-icons {
+    padding-top: 1rem;
+    padding-bottom: 0%;
+}
+
+#contact-icon {
+    padding-right: 1rem;
+    padding-bottom: 1.6rem;
+    color: white;
+}
+
+#contact-icon:hover {
+    color: #EE2E31;
+}
