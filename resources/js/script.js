@@ -10,5 +10,5 @@ let count = setInterval(function() {
     let minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-    document.getElementById("timer").innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s .";
+    document.getElementById("timer").innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s.";
 }, 1000);

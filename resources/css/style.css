@@ -4,12 +4,13 @@
 
 body {
     font-family: 'Dosis', sans-serif;
-    background-color: #DBDBDB;
+    background-color: #071E22;
+    color: white;
 }
 
 /* Header CSS */
 header {
-    background-color: #4C4C4C;
+    background-color: #071E22;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -44,42 +45,43 @@ li {
 }
 
 .nav-item:hover {
-    color: #85C7F2;
+    color: #EE2E31;
 }
 
 
 /* About Me CSS */
 .about-me {
-    background-color: #D1D1D1;
+    background-color: #1D7874;
     padding: 3rem 2rem;
     display: flex;
 }
 
 .about-me-text {
-    background-color: #DBDBDB;
+    background-color: #679289;
     font-size: 1.3rem;
     padding-right: 2rem;
     padding-left: 1rem;
+    color: white;
 }
 
 h2 {
     font-size: 2rem;
 }
 
-
-/* Projects CSS */
 .about-me-image {
     width: 35rem;
     height: 25rem;
 }
 
+
+/* Projects CSS */
 .projects {
-    background-color: #D1D1D1;
+    background-color: #1D7874;
     padding: 1rem 2rem;
 }
 
 .projects-text {
-    background-color: #DBDBDB;
+    background-color: #679289;
     padding-right: 2rem;
     padding-left: 1rem;
     padding-bottom: 1.4rem;
@@ -89,12 +91,12 @@ h2 {
 
 /* Skills CSS */
 .skills {
-    background-color: #D1D1D1;
+    background-color: #1D7874;
     padding: 2rem 2rem;
 }
 
 .skills-text {
-    background-color: #DBDBDB;
+    background-color: #679289;
     padding-right: 2rem;
     padding-left: 1rem;
     font-size: 1.3rem;
